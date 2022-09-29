@@ -23,7 +23,6 @@ function Form({onSubmit}){
         const idKey = nanoid();
       const data = { name, number, idKey };
       console.log(data);
-      // console.log(idd);
         onSubmit(data);
         reset();
     };
